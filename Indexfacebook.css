@@ -1,0 +1,186 @@
+.bigdiv {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 200px 0 0 0;
+    height: 350px;
+    width: 100%;
+}
+
+.fbsekil {
+    height: 106px;
+}
+
+.ikilidiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.divh2 {
+    margin-top: 20px;
+}
+
+.yazih2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.divyazi {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+.divyazia {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.kicikdiv {
+    width: 396px;
+    height: 350px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.inputbir {
+    width: 364px;
+    border-radius: 6px;
+    height: 52px;
+    border: 1px solid #dadde1;
+}
+
+.buttonbir {
+    background-color: #1877f2;
+    width: 364px;
+    height: 52px;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.divbttniki {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttoniki {
+    background-color: #42b72a;
+    color: #fff;
+    border: none;
+    width: 189px;
+    height: 48px;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 30px auto 0 auto;
+}
+
+.mavi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 10px 0 15px 0;
+}
+
+.yazi {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    padding: auto;
+}
+
+.icdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px 0 0 0;
+    align-items: center;
+    height: 198px;
+}
+
+.inputbir::placeholder {
+    /* Internet Explorer 10-11 */
+    padding: 0 0 0 15px;
+    font-family: arial;
+    font-size: 17px;
+}
+
+.altdiv {
+    height: 192.56px;
+    width: 100%;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    font-size: 12px;
+    font-family: inherit;
+    border: none;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin-top: 350px;
+
+}
+
+.ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+    color: #8a8d91;
+    font-size: 16px;
+    line-height: 1.34;
+}
+
+.xett {
+    height: 0px;
+    border: 1px solid #dddfe2;
+    ;
+    width: 100%;
+    margin: auto;
+}
+
+.altortadiv {
+    width: 80%;
+    height: 137.3px;
+    margin: auto;
+}
+
+li {
+    padding: 0 10px 0 0;
+}
+
+.page-footer-links {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.page-footer-links span {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .kicikdiv {
+        margin: auto;
+    }
+
+    .bigdiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .centeregel {
+        margin: auto;
+    }
+}
